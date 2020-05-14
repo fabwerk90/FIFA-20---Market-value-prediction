@@ -1,1 +1,58 @@
-# Capstone
+# FIFA 20 - Market value prediction
+
+This was my final "Capstone" project at neuefische-Bootcamp in Hamburg in May 2020.
+
+## Summary:
+
+In this project I aimed at finding a Machine-Learning model in order to predict market values of football players (sourced from transfermarkt.de) with player attributes and ratings from the video game "FIFA 20". By applying different kinds of regression models I was able to determine the best models for this approach (namely: Random Forest, Gredient Descent Boost and XGBoost).
+In a last step I applied the stacking method in order to find the best predictions possible.
+Our aim was to find the overall best predictions, thus the target metrics I was aiming for were MAE, MRSE and R-Squared.
+
+## Main Delivery:
+
+My main delivery is an interactive bokeh dashboard, which displays differences between my model predictions and transfermarkt.de market values as under- and overvaluations by transfermarkt.de (you can read more on this below at the "Big picture" section). You can find and work with the dashboard here: 
+
+
+## Structure of the repository:
+
+In this repository you find the whole process of my approach. To maintain a good overview, the notebooks are splitted in the following order:
+
+Contents:
+- 1. Data Work (includes Data Mining, Data Merging and Data Cleaning)
+- 2. EDA: first insights
+- 3. Feature Engineering
+- 4. EDA: after feature engineering
+- 5. Predictive Modeling
+
+
+
+## Business Case:
+
+### Market values in Football:
+* Football players are an investment object in terms of market value, since they can be sold or bought by football clubs. 
+* Estimating and predicting these values is of crucial interest for football clubs, in order to evaluate own and potential new players.
+* [transfermarkt.de](www.transfermarkt.de) is a database, which provides market value estimations for nearly every player around the world. Transfermarkt uses “crowd estimation”*  to estimate player market values (basically a network of volunteer data reviewers)
+* To which degree are player attributes and ratings from the video game “FIFA 20” able to perform these estimations and predictions? EA (publisher of FIFA) estimates player ratings and attributes depending on a network of professional data reviewers.
+
+### Key Takeaways:
+* English, Spanish, Italian, German and French first league dominate in terms of market value .
+* Market values increase with age up to a peak  performance age and decrease thereafter.
+* Market values increase nearly exponentially with FIFA player rating.
+* League, age and FIFA rating are also the features with most predictive power.
+* Prediction deviations from actual values (from transfermarkt) lie between 123.000 € (for goalkeepers) and 250.000 € (for field players) in the median.
+
+### Big picture:
+* I assumed, that transfermarkt.de market values estimates real world market values nearly perfect, but what if FIFA data actually predicts real world market values better than transfermarkt?
+* If we assume FIFA data is a better estimator of real world market values, this would imply, that prediction deviations from actual market values should be treated as over- and under-valuations by the transfermarkt database.
+* In order to illustrate this, I've build an interactive bokeh dashboard. A link to this dashboard can be found at the beginning of this readme under "Main Delivery".
+
+
+
+### Future Work:
+* Gather transfermarkt and FIFA data from previous years and lookup how under- and overvalued players developed  in terms of market value.
+* Follow up on how under- and overvalued players are developing in terms of market value in the future
+* Apply neural networks on the data and see if model predictions improve
+
+
+
+
