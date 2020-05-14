@@ -4,7 +4,7 @@ This was my final "Capstone" project at neuefische-Bootcamp in Hamburg in May 20
 
 ## Main Deliveries:
 
-* **Business presentation** of my whole project. You can find the presentation directily in this repo ("FC_Python_Business_Presentation")
+* **Business presentation** of my whole project. You can find the presentation directly in this repo ("FC_Python_Business_Presentation")
 * **Interactive bokeh dashboard**, which displays differences between my model predictions and transfermarkt.de market values as under- and overvaluations by transfermarkt.de (you can read more on this in the following). You can find and work with the dashboard here 
 
 **Preview of Dashboard**
