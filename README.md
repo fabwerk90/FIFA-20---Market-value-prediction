@@ -2,13 +2,6 @@
 
 This was my final "Capstone" project at neuefische-Bootcamp in Hamburg in May 2020.
 
-## Summary:
-
-* In this project I aimed at finding a Machine-Learning model in order to predict market values of football players (sourced from transfermarkt.de) with player attributes and ratings from the video game "FIFA 20". 
-* By applying different kinds of regression models I was able to determine the best models for this approach (namely: Random Forest, Gredient Descent Boost and XGBoost).
-* In a last step I applied the stacking method in order to find the best predictions possible.
-* My aim was to find the overall best predictions, thus the target metrics I was aiming for were MAE, MRSE and R-Squared.
-
 ## Main Deliveries:
 
 * **Business presentation** of my whole project. You can find the presentation directily in this repo ("FC_Python_Business_Presentation")
@@ -16,6 +9,13 @@ This was my final "Capstone" project at neuefische-Bootcamp in Hamburg in May 20
 
 **Preview of Dashboard**
 ![](https://github.com/fabwerk90/FIFA-20---Market-value-prediction/blob/master/Dashboard_Preview.PNG)
+
+## Summary:
+
+* In this project I aimed at finding a Machine-Learning model in order to predict market values of football players (sourced from transfermarkt.de) with player attributes and ratings from the video game "FIFA 20". 
+* By applying different kinds of regression models I was able to determine the best models for this approach (namely: Random Forest, Gredient Descent Boost and XGBoost).
+* In a last step I applied the stacking method in order to find the best predictions possible.
+* My aim was to find the overall best predictions, thus the target metrics I was aiming for were MAE, MRSE and R-Squared.
 
 
 ## Structure of the repository:
