@@ -4,9 +4,10 @@ This was my final "Capstone" project at neuefische-Bootcamp in Hamburg in May 20
 
 ## Summary:
 
-In this project I aimed at finding a Machine-Learning model in order to predict market values of football players (sourced from transfermarkt.de) with player attributes and ratings from the video game "FIFA 20". By applying different kinds of regression models I was able to determine the best models for this approach (namely: Random Forest, Gredient Descent Boost and XGBoost).
-In a last step I applied the stacking method in order to find the best predictions possible.
-Our aim was to find the overall best predictions, thus the target metrics I was aiming for were MAE, MRSE and R-Squared.
+* In this project I aimed at finding a Machine-Learning model in order to predict market values of football players (sourced from transfermarkt.de) with player attributes and ratings from the video game "FIFA 20". 
+* By applying different kinds of regression models I was able to determine the best models for this approach (namely: Random Forest, Gredient Descent Boost and XGBoost).
+* In a last step I applied the stacking method in order to find the best predictions possible.
+* My aim was to find the overall best predictions, thus the target metrics I was aiming for were MAE, MRSE and R-Squared.
 
 ## Main Delivery:
 
@@ -18,11 +19,11 @@ My main delivery is an interactive bokeh dashboard, which displays differences b
 In this repository you find the whole process of my approach. To maintain a good overview, the notebooks are splitted in the following order:
 
 Contents:
-- 1. Data Work (includes Data Mining, Data Merging and Data Cleaning)
-- 2. EDA: first insights
-- 3. Feature Engineering
-- 4. EDA: after feature engineering
-- 5. Predictive Modeling
+- "1_Data_Work" (includes Data Mining, Data Merging and Data Cleaning)
+- "2_first_EDA" (Exploratory Data Analysis ("EDA))
+- "3_Feature_Engineering"
+- "4_second_EDA" (2nd EDA after feature engineering)
+- "5_Predictive_Modeling" (feature and model selection, predictions and stacking)
 
 
 
