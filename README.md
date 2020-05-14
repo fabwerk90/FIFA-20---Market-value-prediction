@@ -9,9 +9,10 @@ This was my final "Capstone" project at neuefische-Bootcamp in Hamburg in May 20
 * In a last step I applied the stacking method in order to find the best predictions possible.
 * My aim was to find the overall best predictions, thus the target metrics I was aiming for were MAE, MRSE and R-Squared.
 
-## Main Delivery:
+## Main Deliveries:
 
-My main delivery is an interactive bokeh dashboard, which displays differences between my model predictions and transfermarkt.de market values as under- and overvaluations by transfermarkt.de (you can read more on this below at the "Big picture" section). You can find and work with the dashboard here: 
+* An interactive bokeh dashboard, which displays differences between my model predictions and transfermarkt.de market values as under- and overvaluations by transfermarkt.de (you can read more on this below at the "Big picture" section). You can find and work with the dashboard here: 
+* Business presentation of my whole project. You can find the presentation directily in this repo ("FC_Python_Business_Presentation")
 
 
 ## Structure of the repository:
