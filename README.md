@@ -5,7 +5,7 @@ This was my final "Capstone" project at neuefische-Bootcamp in Hamburg in May 20
 ## Main Deliveries:
 
 * **Business presentation** of my whole project. You can find the presentation directly in this repo ("FC_Python_Business_Presentation")
-* **Interactive bokeh dashboard**, which displays differences between my model predictions and transfermarkt.de market values as under- and overvaluations by transfermarkt.de (you can read more on this in the following). You can access the dashboard [here](https://fw-capstone-hh-feb2020.herokuapp.com/app).
+* **Interactive bokeh dashboard**, which displays differences between my model predictions and transfermarkt.de market values as under- and overvaluations by the videogame mFIFA20 (you can read more on this in the following). You can access the dashboard [here](https://fw-capstone-hh-feb2020.herokuapp.com/app).
 
 **Preview of Dashboard**
 ![](https://github.com/fabwerk90/FIFA-20---Market-value-prediction/blob/master/Dashboard_Preview.PNG)
@@ -47,8 +47,8 @@ Contents:
 * Prediction deviations from actual values (from transfermarkt) lie between 123.000 € (for goalkeepers) and 250.000 € (for field players) in the median.
 
 ### Big picture:
-* I assumed, that transfermarkt.de market values estimates real world market values nearly perfect, but what if FIFA data actually predicts real world market values better than transfermarkt?
-* If we assume FIFA data is a better estimator of real world market values, this would imply, that prediction deviations from actual market values should be treated as over- and under-valuations by the transfermarkt database.
+* I assumed, that transfermarkt.de market values estimates real world market values somewhat realistically.
+* If we assume that transfermarkt is a better estimator of real world market values, this would imply, that prediction deviations from actual market values should be treated as over- and under-valuations by the FIFA20 videogame.
 * In order to illustrate this, I've build an interactive bokeh dashboard. A link to this dashboard can be found at the beginning of this readme under "Main Delivery".
 
 
