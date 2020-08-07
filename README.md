@@ -8,6 +8,7 @@ This was my final "Capstone" project at neuefische-Bootcamp in Hamburg in May 20
 * **Interactive bokeh dashboard**, which displays differences between my model predictions and transfermarkt.de market values as under- and overvaluations by the videogame mFIFA20 (you can read more on this in the following). You can access the dashboard [here](https://fw-capstone-hh-feb2020.herokuapp.com/app).
 
 **Preview of Dashboard**
+
 ![](https://github.com/fabwerk90/FIFA-20---Market-value-prediction/blob/master/dashboard_updated_preview.png)
 
 ## Summary:
